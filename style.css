@@ -1,0 +1,175 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background-image: url(https://cdn.lifehacker.ru/wp-content/uploads/2018/01/macbook-15_1516041843.jpg);
+    background-size: 111.8%;
+    background-position: -90px top;
+    background-attachment: fixed;}
+
+form {
+    width: 55vh;
+    height: 85vh;
+    margin: 7vh 80vh;
+    background-color: white;
+}
+
+form>h1 {
+    font-weight: 100;
+    font-size: x-large;
+    position: absolute;
+    margin-top: 7vh;
+    margin-left: 16vh;
+}
+
+.p1 {
+    font-weight: 100;
+    position: absolute;
+    margin-top: 13vh;
+    margin-left: 10vh;
+}
+
+.twitter{
+    position: absolute;
+    width: 40vh;
+    height: 5.5vh;
+    margin-top: 18vh;
+    margin-left: 7vh;
+    background-color: #1d9fb5;
+    border: none;
+    color: white;
+    font-size: larger;
+    transition: all 0.4s ease-in-out;
+    cursor: pointer;
+}
+
+.twitter:hover{
+    margin-left: 9.5vh;
+    margin-top: 18.5vh;
+    width: 35vh;
+    height: 5vh;
+    background-color: #178497;
+    transition: all 0.4s ease-in-out;
+}
+
+.facebook{
+    position: absolute;
+    width: 40vh;
+    height: 5.5vh;
+    margin-top: 25vh;
+    margin-left: 7vh;
+    background-color: #017afd;
+    border: none;
+    color: white;
+    font-size: larger;
+    transition: all 0.4s ease-in-out;
+    cursor: pointer;
+}
+
+.facebook:hover{
+    margin-left: 9.5vh;
+    margin-top: 25.5vh;
+    width: 35vh;
+    height: 5vh;
+    background-color: #0066d3;
+    transition: all 0.4s ease-in-out;
+}
+
+.p2 {
+    font-weight: 400;
+    position: absolute;
+    margin-top: 33vh;
+    margin-left: 25vh;
+}
+
+input{
+    margin-left: 12.5vh;
+    width: 34vh;
+    height: 5vh;
+}
+
+.inp1{
+    position: absolute;
+    margin-top: 38vh;
+}
+
+.inp2{
+    position: absolute;
+    margin-top: 46vh;
+}
+
+.inp3{
+    position: absolute;
+    margin-top: 54vh;
+}
+
+.inp4{
+    position: absolute;
+    margin-top: 62vh;
+}
+
+
+.iconDiv{
+    position: absolute;
+    width: 6vh;
+    height: 5.3vh;
+    border: 1px solid black;
+    background-color: #e0e4e7;
+    margin-top: 0vh;
+    margin-left: 7vh;
+}
+
+.button{
+    position: absolute;
+    width: 40vh;
+    height: 5.5vh;
+    margin-top: 70vh;
+    margin-left: 7vh;
+    background-color: #017afd;
+    border: none;
+    color: white;
+    font-size: larger;
+    transition: all 0.4s ease-in-out;
+    cursor: pointer;
+}
+
+.button:hover{
+    margin-left: 9.5vh;
+    margin-top: 70.5vh;
+    width: 35vh;
+    height: 5vh;
+    background-color: #0066d3;
+    transition: all 0.4s ease-in-out;
+}
+
+.fa-user{
+    color: #494d51;
+    margin-top: 1.5vh;
+    margin-left: 2vh;
+}
+
+.fa-envelope{
+    color: #494d51;
+    margin-top: 1.5vh;
+    margin-left: 2vh;
+}
+
+.fa-lock{
+    color: #494d51;
+    margin-top: 1.5vh;
+    margin-left: 2vh;
+}
+
+.p3{
+    position: absolute;
+    margin-left: 16vh;
+    margin-top: 78vh;
+}
+
+.p3>a{
+    text-decoration: none;
+    color: #1d9fb5;
+}
